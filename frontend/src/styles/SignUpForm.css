@@ -1,0 +1,28 @@
+:root {
+    --main-color: rgb(218, 69, 69);
+}
+
+.signUpForm-container {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    border: 1px solid var(--main-color);
+}
+
+.sigUpForm-typo {
+    width: 100%;
+    text-align: center;
+    color: var(--main-color);
+}
+
+.signUpForm-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signUpForm-form > div {
+    margin-bottom: 15px
+}

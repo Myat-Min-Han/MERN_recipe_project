@@ -1,0 +1,30 @@
+:root {
+    --main-color: rgb(218, 69, 69);
+}
+
+.recipeCard-card {
+    margin-bottom: 20px;
+    max-width: 375px;
+}
+
+
+.recipeCard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.recipeCard-header-typo {
+    color: var(--main-color);
+}
+
+.ingridients {
+    margin: 0 5px
+}
+
+.ingridients > div {
+    background-color: var(--main-color);
+}
+
+
+

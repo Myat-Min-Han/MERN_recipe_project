@@ -1,0 +1,30 @@
+:root {
+    --main-color: rgb(218, 69, 69);
+}
+
+.navBar-container {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.navBar-logo {
+    color: var(--main-color);
+
+}
+.navBar-menu {
+    padding-top: 8px
+}
+.navBar-menu > div >a {
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
